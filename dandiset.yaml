@@ -3,24 +3,190 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: 'This work was supported by the Machine Shop of the Salk Institute
+  and Bryan Nielsen. This preprint used the zHenriquesLab template for Overleaf and
+  diagrams from Biorender. Funding: Salk Institute for Biological Sciences (KMT) HHMI
+  (KMT) Kavli Foundation (KMT) Clayton Foundation (KMT) Dolby Family Fund (KMT) NIMH
+  R01-MH115920 (KMT) NIMH R37-MH102441 (KMT) NICCIH Pioneer Award DP1-AT009925 (KMT)
+  Salk Women in Science (CJ) NIMH 1RF1MH132653-01 (TDP) NIDA R00DA055111 (HL) Author
+  Contributions: Conceptualization: CJ, KMT Stereotaxic Surgeries: CJ, AT Behavioral
+  Experiments: CJ, AT, FA, NT, ES, NNN Fiber Photometry and Calcium Imaging Experiments:
+  CJ, AT, FA, AN SLEAP automated pose tracking analysis: CJ, MGC, AT, FA, NT, ES,
+  NNN Keypoint-Moseq Analysis: CJ, ES Histological Verification: CJ, AT, FA, ES, NT
+  Code Scripts: CRL, RRP, KB, JD, LRK Intellectual contributions: FT, KB, RW, MKB,
+  TDP, HL AlphaClass architecture: AB Data analysis: CJ, AT, ES, NT, FA, AN Data preparation
+  and sharing: CJ, AT, RW, LRK Materials: YL Writing – original draft: CJ, KMT Writing
+  – review and editing: all authors contributed to editing the manuscript'
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Keyes, Laurel (2026) Data supporting "Social Exclusion Amplifies Behavioral
+citation: Keyes, Laurel; Jia, Caroline; Tran, Andrea; Aloboudi, Faith; Say, Ella;
+  Thao, Nick; Lee, Christopher R. ; Batra, Kanha; Nguyen, Amanda; Bal, Aneesh; Nono,
+  Nathaniel N.; Delahanty, Jeremy; Chan, May G. ; Patel, Reesha R.; Wichmann, Romy;
+  Taschbach, Felix; Li, Yulong; Benna, Marcus; Pereira, Talmo D.; Li, Hao; Tye, Kay
+  M.; Kavli Foundation  (2026) Data supporting "Social Exclusion Amplifies Behavioral
   Responses to Physical Pain via Insular Neuromodulation" (Version draft) [Data set].
   DANDI Archive. https://dandiarchive.org/dandiset/001839/draft
 contributor:
 - affiliation: []
   email: laurelrr@gmail.com
+  identifier: 0000-0001-5433-9948
   includeInCitation: true
   name: Keyes, Laurel
   roleName:
   - dcite:ContactPerson
+  - dcite:DataManager
   schemaKey: Person
+- identifier: 0000-0002-8077-4852
+  includeInCitation: true
+  name: Jia, Caroline
+  roleName:
+  - dcite:Author
+  - dcite:ProjectLeader
+  schemaKey: Person
+- includeInCitation: true
+  name: Tran, Andrea
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Aloboudi, Faith
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
+  name: Say, Ella
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
+  name: Thao, Nick
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-5952-9924
+  includeInCitation: true
+  name: 'Lee, Christopher R. '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-6401-4274
+  includeInCitation: true
+  name: Batra, Kanha
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Nguyen, Amanda
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Bal, Aneesh
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Nono, Nathaniel N.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Delahanty, Jeremy
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: 'Chan, May G. '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0003-3913-6311
+  includeInCitation: true
+  name: Patel, Reesha R.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-4506-8813
+  includeInCitation: true
+  name: Wichmann, Romy
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-5345-5787
+  includeInCitation: true
+  name: Taschbach, Felix
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Li, Yulong
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-8100-2857
+  includeInCitation: true
+  name: Benna, Marcus
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-9075-8365
+  includeInCitation: true
+  name: Pereira, Talmo D.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-8710-1290
+  includeInCitation: true
+  name: Li, Hao
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-2435-0182
+  includeInCitation: true
+  name: Tye, Kay M.
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:ProjectLeader
+  schemaKey: Person
+- identifier: https://ror.org/03xez1567
+  includeInCitation: false
+  name: Salk Institute for Biological Sciences
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/03xez1567
+  name: Howard Hughes Medical Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/00kztt736
+  includeInCitation: true
+  name: 'Kavli Foundation '
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- name: Clayton Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- name: Dolby Family Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: NIMH R01-MH115920, NIMH R37-MH102441, NICCIH Pioneer Award DP1-AT009925,
+    NIMH 1RF1MH132653-0,  ) NIDA R00DA055111
+  name: 'National Institute of Health '
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-05-12T23:02:01.488781+00:00'
 description: "This dataset contains calcium imaging, simultaneous behavioral data,
   and fiber photometry data from male mice in NWB format.  The calcium imaging was
@@ -31,16 +197,27 @@ description: "This dataset contains calcium imaging, simultaneous behavioral dat
   responses to either innocuous or nociceptive stimuli.  See preprint for protocol
   details: Jia, C. et al. \"Social Exclusion Amplifies Behavioral Responses to Physical
   Pain via Insular Neuromodulation\" bioRxiv, 2025.05.09. https://www.biorxiv.org/content/10.1101/2025.05.09.653162v1.\n"
+ethicsApproval: []
 id: DANDI:001839/draft
 identifier: DANDI:001839
+keywords:
+- aIC
+- C57BL/6J mice
+- physical pain
+- social pain
+- neuromodulator
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001839/versions/draft/assets/
 name: Data supporting "Social Exclusion Amplifies Behavioral Responses to Physical
   Pain via Insular Neuromodulation"
+protocol:
+- https://www.biorxiv.org/content/10.1101/2025.05.09.653162v1
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/001839/draft
 version: draft
+wasGeneratedBy: []
