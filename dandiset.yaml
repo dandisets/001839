@@ -29,9 +29,8 @@ citation: Keyes, Laurel; Jia, Caroline; Tran, Andrea; Aloboudi, Faith; Say, Ella
   Thao, Nick; Lee, Christopher R. ; Batra, Kanha; Nguyen, Amanda; Bal, Aneesh; Nono,
   Nathaniel N.; Delahanty, Jeremy; Chan, May G. ; Patel, Reesha R.; Wichmann, Romy;
   Taschbach, Felix; Li, Yulong; Benna, Marcus; Pereira, Talmo D.; Li, Hao; Tye, Kay
-  M.; Kavli Foundation  (2026) Data supporting "Social Exclusion Amplifies Behavioral
-  Responses to Physical Pain via Insular Neuromodulation" (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/001839/draft
+  M. (2026) Data supporting "Social Exclusion Amplifies Behavioral Responses to Physical
+  Pain via Insular Neuromodulation" (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001839/draft
 contributor:
 - affiliation: []
   email: laurelrr@gmail.com
@@ -168,7 +167,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 - identifier: https://ror.org/00kztt736
-  includeInCitation: true
+  includeInCitation: false
   name: 'Kavli Foundation '
   roleName:
   - dcite:Funder
