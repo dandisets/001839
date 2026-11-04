@@ -25,9 +25,21 @@ acknowledgement: 'This work was supported by the Machine Shop of the Salk Instit
   and sharing: CJ, AT, RW, LRK Materials: YL Writing – original draft: CJ, KMT Writing
   – review and editing: all authors contributed to editing the manuscript'
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 14283904
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Keyes, Laurel; Jia, Caroline; Tran, Andrea; Aloboudi, Faith; Say, Ella;
   Thao, Nick; Lee, Christopher R. ; Batra, Kanha; Nguyen, Amanda; Bal, Aneesh; Nono,
   Nathaniel N.; Delahanty, Jeremy; Chan, May G. ; Patel, Reesha R.; Wichmann, Romy;
