@@ -25,21 +25,34 @@ acknowledgement: 'This work was supported by the Machine Shop of the Salk Instit
   and sharing: CJ, AT, RW, LRK Materials: YL Writing – original draft: CJ, KMT Writing
   – review and editing: all authors contributed to editing the manuscript'
 assetsSummary:
-  approach: []
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 14283904
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  measurementTechnique:
+  - name: one-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 3648573484
+  numberOfFiles: 20
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
-  variableMeasured: []
+  variableMeasured:
+  - PlaneSegmentation
+  - OpticalChannel
+  - ProcessingModule
+  - OnePhotonSeries
+  - ImagingPlane
 citation: Keyes, Laurel; Jia, Caroline; Tran, Andrea; Aloboudi, Faith; Say, Ella;
   Thao, Nick; Lee, Christopher R. ; Batra, Kanha; Nguyen, Amanda; Bal, Aneesh; Nono,
   Nathaniel N.; Delahanty, Jeremy; Chan, May G. ; Patel, Reesha R.; Wichmann, Romy;
@@ -48,7 +61,7 @@ citation: Keyes, Laurel; Jia, Caroline; Tran, Andrea; Aloboudi, Faith; Say, Ella
   Pain via Insular Neuromodulation" (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001839/draft
 contributor:
 - affiliation: []
-  email: laurelrr@gmail.com
+  email: lkeyes@salk.edu
   identifier: 0000-0001-5433-9948
   includeInCitation: true
   name: Keyes, Laurel
@@ -161,7 +174,8 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-2435-0182
+- email: tye@salk.edu
+  identifier: 0000-0002-2435-0182
   includeInCitation: true
   name: Tye, Kay M.
   roleName:
